@@ -1,0 +1,41 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : null,
+    "country" : "Italy",
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "16ca3690-6a24-11eb-b7dc-cf00fa2e3e5a"
+    },
+    "name" : "Bertin S.r.l",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "phone" : null,
+    "state" : null,
+    "title" : "Bertin S.r.l",
+    "zip" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

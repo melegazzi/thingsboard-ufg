@@ -1,0 +1,40 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true
+    },
+    "address" : "Via della cerca, 14",
+    "address2" : null,
+    "city" : "Fenegrò",
+    "country" : "Italy",
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "email" : "info@alantricot.it",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "fab9fbc0-0948-11eb-b019-1b2661815418"
+    },
+    "name" : "Al.An Tricot S.r.l.",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "phone" : null,
+    "state" : "Como",
+    "title" : "Al.An Tricot S.r.l.",
+    "zip" : "22070"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

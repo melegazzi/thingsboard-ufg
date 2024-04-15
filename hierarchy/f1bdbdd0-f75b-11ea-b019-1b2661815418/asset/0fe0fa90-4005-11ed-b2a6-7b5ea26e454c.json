@@ -1,0 +1,128 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "e2b0b8a0-f8a8-11ed-90d6-bb4200c4b3a3"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "0fe0fa90-4005-11ed-b2a6-7b5ea26e454c"
+    },
+    "label" : null,
+    "name" : "Carlo Balbarelli",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "type" : "company"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "ae48b790-9233-11ea-888d-0bcef8d19d25"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "0fe0fa90-4005-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "0fe0fa90-4005-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f5f97060-4006-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "0fe0fa90-4005-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "fc4ab7d0-4006-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "0fe0fa90-4005-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5330bab0-4005-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "0fe0fa90-4005-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5ea50d50-4006-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "0fe0fa90-4005-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "64ca3bb0-4006-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1664462924052,
+      "longValue" : null,
+      "strValue" : "Via Furlo, 30, 61030 Borgaccio PU"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1664462941700,
+      "longValue" : null,
+      "strValue" : "43.741390"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1664462954533,
+      "longValue" : null,
+      "strValue" : "12.904754"
+    } ]
+  }
+}

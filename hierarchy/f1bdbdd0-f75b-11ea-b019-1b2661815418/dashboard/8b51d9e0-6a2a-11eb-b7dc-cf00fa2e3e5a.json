@@ -1,0 +1,156 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : "",
+      "widgets" : {
+        "3290601c-9d06-de8a-005c-14b73ac16e39" : {
+          "isSystemType" : true,
+          "bundleAlias" : "trendz_bundle",
+          "typeAlias" : "trendz_view_static",
+          "type" : "static",
+          "title" : "New widget",
+          "sizeX" : 9.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "datasources" : [ ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "viewUrl" : "http://46.101.245.79:8888/viewMode/b23e7386-feae-437d-9ee5-d510c2358f59",
+              "useDashboardTimeWindow" : false
+            },
+            "title" : "New Trendz View Static"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "3290601c-9d06-de8a-005c-14b73ac16e39"
+        },
+        "a61e95cf-2f94-726c-7b72-74e082c10bad" : {
+          "isSystemType" : true,
+          "bundleAlias" : "trendz_bundle",
+          "typeAlias" : "trendz_builder",
+          "type" : "static",
+          "title" : "New widget",
+          "sizeX" : 9.5,
+          "sizeY" : 6.5,
+          "config" : {
+            "datasources" : [ ],
+            "timewindow" : {
+              "realtime" : {
+                "timewindowMs" : 60000
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "#fff",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "viewUrl" : "http://46.101.245.79:8888/viewMode/b23e7386-feae-437d-9ee5-d510c2358f59"
+            },
+            "title" : "New Trendz Builder"
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "a61e95cf-2f94-726c-7b72-74e082c10bad"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "new",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "3290601c-9d06-de8a-005c-14b73ac16e39" : {
+                  "sizeX" : 23,
+                  "sizeY" : 7,
+                  "row" : 0,
+                  "col" : 0
+                },
+                "a61e95cf-2f94-726c-7b72-74e082c10bad" : {
+                  "sizeX" : 9,
+                  "sizeY" : 6,
+                  "row" : 7,
+                  "col" : 0
+                }
+              },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "color" : "rgba(0,0,0,0.870588)",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : { },
+      "filters" : { },
+      "timewindow" : {
+        "displayValue" : "",
+        "hideInterval" : false,
+        "hideAggregation" : false,
+        "hideAggInterval" : false,
+        "selectedTab" : 0,
+        "realtime" : {
+          "interval" : 1000,
+          "timewindowMs" : 60000
+        },
+        "history" : {
+          "historyType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "fixedTimewindow" : {
+            "startTimeMs" : 1626091804137,
+            "endTimeMs" : 1626178204137
+          }
+        },
+        "aggregation" : {
+          "type" : "AVG",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      }
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "8b51d9e0-6a2a-11eb-b7dc-cf00fa2e3e5a"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "new",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "title" : "new"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

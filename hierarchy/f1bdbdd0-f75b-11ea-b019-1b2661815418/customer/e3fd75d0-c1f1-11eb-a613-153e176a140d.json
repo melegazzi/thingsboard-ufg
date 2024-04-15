@@ -1,0 +1,41 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true,
+      "homeDashboardHideToolbar" : true
+    },
+    "address" : null,
+    "address2" : null,
+    "city" : "Reino",
+    "country" : "Italy",
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "e3fd75d0-c1f1-11eb-a613-153e176a140d"
+    },
+    "name" : "Maglieria Dritto e Rovescio Srl",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "parentCustomerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "phone" : null,
+    "state" : "Benevento",
+    "title" : "Maglieria Dritto e Rovescio Srl",
+    "zip" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "e2b0b8a0-f8a8-11ed-90d6-bb4200c4b3a3"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "80eb3aa0-9392-11eb-a49a-65d7b30a1d9a"
+    },
+    "label" : null,
+    "name" : "Confezioni Simmy S.R.L.",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "type" : "company"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "80eb3aa0-9392-11eb-a49a-65d7b30a1d9a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9578de10-7ffa-11eb-a49a-65d7b30a1d9a"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "ae48b790-9233-11ea-888d-0bcef8d19d25"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "80eb3aa0-9392-11eb-a49a-65d7b30a1d9a"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1617356790140,
+      "longValue" : null,
+      "strValue" : "Via della Gasparina 35 - 24058 Romano di Lombardia BERGAMO"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1617355845640,
+      "longValue" : null,
+      "strValue" : "45.5236"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1617355888112,
+      "longValue" : null,
+      "strValue" : "9.73622"
+    } ]
+  }
+}

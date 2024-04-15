@@ -1,0 +1,156 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "3df1f4e0-f131-11ea-ac2b-2362b51d69a8"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "3de9de90-f131-11ea-ac2b-2362b51d69a8"
+    },
+    "name" : "Test Rule",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 4,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 2,
+      "type" : "pcs_set"
+    }, {
+      "fromIndex" : 1,
+      "toIndex" : 3,
+      "type" : "ct"
+    }, {
+      "fromIndex" : 2,
+      "toIndex" : 0,
+      "type" : "Success"
+    }, {
+      "fromIndex" : 3,
+      "toIndex" : 0,
+      "type" : "Success"
+    } ],
+    "firstNodeIndex" : 1,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 941,
+        "layoutY" : 136
+      },
+      "configuration" : {
+        "jsScript" : "var ct_commessa\n\nmsg.ct_commessa = msg.ct * msg.pcs_set;\n\nreturn {\n             \tmsg: {ct_commessa:msg.ct_commessa},\n             \tmetadata: {\n             \t\tdeviceType: \"K99\"\n             \t},\n             \tmsgType: \"POST_TELEMETRY_REQUEST\"\n             };"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3df0bc60-f131-11ea-ac2b-2362b51d69a8"
+      },
+      "name" : "ct_commessa",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 282,
+        "layoutY" : 149
+      },
+      "configuration" : {
+        "jsScript" : "function nextRelation(metadata, msg){\n\tif(metadata.deviceType === 'K99'){\n\t\treturn ['ct'];\n\t}else if(metadata.scope === 'SHARED_SCOPE')\n\t\treturn ['pcs_set'];\n}\n\nreturn nextRelation(metadata, msg);"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3df1f4e0-f131-11ea-ac2b-2362b51d69a8"
+      },
+      "name" : "Switch By Type",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsSwitchNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 603,
+        "layoutY" : 227
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\n\nnewMsg.pcs_set = msg.pcs_set;\n\nreturn {\n             \tmsg: newMsg,\n             \tmetadata: {\n             \t\tdeviceType: \"K99\"\n             \t},\n             \tmsgType: \"POST_TELEMETRY_REQUEST\"\n             };"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3df29120-f131-11ea-ac2b-2362b51d69a8"
+      },
+      "name" : "Change to pcs_set",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "description" : null,
+        "layoutX" : 604,
+        "layoutY" : 61
+      },
+      "configuration" : {
+        "jsScript" : "var newMsg = {};\n\nnewMsg.ct = msg.ct;\n\nreturn {msg: newMsg, metadata: metadata, msgType: msgType};"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3df32d60-f131-11ea-ac2b-2362b51d69a8"
+      },
+      "name" : "Change to Ct",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.transform.TbTransformMsgNode"
+    }, {
+      "additionalInfo" : {
+        "layoutX" : 1284,
+        "layoutY" : 137
+      },
+      "configuration" : {
+        "defaultTTL" : 0
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugMode" : false,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "3df465e0-f131-11ea-ac2b-2362b51d69a8"
+      },
+      "name" : "Save Timeseries",
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

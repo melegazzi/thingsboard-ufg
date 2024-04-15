@@ -1,0 +1,241 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : "",
+      "widgets" : {
+        "150fb1d8-a889-4d89-89e0-b1947f2108a7" : {
+          "isSystemType" : true,
+          "bundleAlias" : "control_widgets",
+          "typeAlias" : "rpc_remote_shell",
+          "type" : "rpc",
+          "title" : "New widget",
+          "sizeX" : 9.5,
+          "sizeY" : 5.5,
+          "config" : {
+            "targetDeviceAliases" : [ ],
+            "showTitle" : true,
+            "backgroundColor" : "#010101",
+            "color" : "rgba(255, 254, 254, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "requestTimeout" : 5000
+            },
+            "title" : "New RPC remote shell",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "datasources" : [ ],
+            "targetDeviceAliasIds" : [ "6c4864c8-472e-5873-7318-2e9467a56d57" ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "150fb1d8-a889-4d89-89e0-b1947f2108a7"
+        },
+        "6836529f-237f-51e3-3a7e-aa5fc2b47a3f" : {
+          "isSystemType" : true,
+          "bundleAlias" : "control_widgets",
+          "typeAlias" : "rpc_debug_terminal",
+          "type" : "rpc",
+          "title" : "New widget",
+          "sizeX" : 9.5,
+          "sizeY" : 5.5,
+          "config" : {
+            "targetDeviceAliases" : [ ],
+            "showTitle" : true,
+            "backgroundColor" : "#010101",
+            "color" : "rgba(255, 254, 254, 0.87)",
+            "padding" : "0px",
+            "settings" : {
+              "requestTimeout" : 5000
+            },
+            "title" : "New RPC debug terminal",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "widgetStyle" : { },
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400
+            },
+            "useDashboardTimewindow" : true,
+            "showLegend" : false,
+            "actions" : { },
+            "datasources" : [ ],
+            "targetDeviceAliasIds" : [ "6c4864c8-472e-5873-7318-2e9467a56d57" ]
+          },
+          "row" : 0,
+          "col" : 0,
+          "id" : "6836529f-237f-51e3-3a7e-aa5fc2b47a3f"
+        },
+        "c6a045b0-2b77-5a3c-05a2-0269e324ea04" : {
+          "isSystemType" : true,
+          "bundleAlias" : "cards",
+          "typeAlias" : "timeseries_table",
+          "type" : "timeseries",
+          "title" : "Timeseries table",
+          "sizeX" : 16,
+          "sizeY" : 13,
+          "row" : 0,
+          "col" : 2,
+          "config" : {
+            "datasources" : [ {
+              "type" : "entity",
+              "entityAliasId" : "6c4864c8-472e-5873-7318-2e9467a56d57",
+              "dataKeys" : [ {
+                "name" : "LOGS",
+                "label" : "LOGS",
+                "type" : "timeseries",
+                "color" : "#2196f3",
+                "settings" : { },
+                "_hash" : 0.36221892420772106
+              } ]
+            } ],
+            "timewindow" : {
+              "realtime" : {
+                "interval" : 1000,
+                "timewindowMs" : 60000
+              },
+              "aggregation" : {
+                "type" : "NONE",
+                "limit" : 200
+              }
+            },
+            "showTitle" : true,
+            "backgroundColor" : "rgb(255, 255, 255)",
+            "color" : "rgba(0, 0, 0, 0.87)",
+            "padding" : "8px",
+            "settings" : {
+              "showTimestamp" : true,
+              "displayPagination" : true,
+              "defaultPageSize" : 10
+            },
+            "title" : "Timeseries table",
+            "dropShadow" : true,
+            "enableFullscreen" : true,
+            "titleStyle" : {
+              "fontSize" : "16px",
+              "fontWeight" : 400,
+              "padding" : "5px 10px 5px 10px"
+            },
+            "useDashboardTimewindow" : false,
+            "showLegend" : false,
+            "widgetStyle" : { },
+            "actions" : { },
+            "showTitleIcon" : false,
+            "iconColor" : "rgba(0, 0, 0, 0.87)",
+            "iconSize" : "24px"
+          },
+          "id" : "c6a045b0-2b77-5a3c-05a2-0269e324ea04"
+        }
+      },
+      "states" : {
+        "default" : {
+          "name" : "Remote shell",
+          "root" : true,
+          "layouts" : {
+            "main" : {
+              "widgets" : {
+                "150fb1d8-a889-4d89-89e0-b1947f2108a7" : {
+                  "sizeX" : 10,
+                  "sizeY" : 5,
+                  "row" : 0,
+                  "col" : 0
+                },
+                "6836529f-237f-51e3-3a7e-aa5fc2b47a3f" : {
+                  "sizeX" : 10,
+                  "sizeY" : 5,
+                  "row" : 5,
+                  "col" : 0
+                },
+                "c6a045b0-2b77-5a3c-05a2-0269e324ea04" : {
+                  "sizeX" : 14,
+                  "sizeY" : 5,
+                  "row" : 0,
+                  "col" : 10
+                }
+              },
+              "gridSettings" : {
+                "backgroundColor" : "#eeeeee",
+                "color" : "rgba(0,0,0,0.870588)",
+                "columns" : 24,
+                "margin" : 10,
+                "backgroundSizeMode" : "100%"
+              }
+            }
+          }
+        }
+      },
+      "entityAliases" : {
+        "6c4864c8-472e-5873-7318-2e9467a56d57" : {
+          "id" : "6c4864c8-472e-5873-7318-2e9467a56d57",
+          "alias" : "gateway",
+          "filter" : {
+            "type" : "singleEntity",
+            "resolveMultiple" : false,
+            "singleEntity" : {
+              "entityType" : "DEVICE",
+              "id" : "99c66650-ca8c-11ea-b694-7bdba919ac4d"
+            }
+          }
+        }
+      },
+      "timewindow" : {
+        "displayValue" : "",
+        "hideInterval" : false,
+        "hideAggregation" : false,
+        "hideAggInterval" : false,
+        "selectedTab" : 0,
+        "realtime" : {
+          "interval" : 1000,
+          "timewindowMs" : 60000
+        },
+        "history" : {
+          "historyType" : 0,
+          "interval" : 1000,
+          "timewindowMs" : 60000,
+          "fixedTimewindow" : {
+            "startTimeMs" : 1595490382592,
+            "endTimeMs" : 1595576782592
+          }
+        },
+        "aggregation" : {
+          "type" : "AVG",
+          "limit" : 25000
+        }
+      },
+      "settings" : {
+        "stateControllerId" : "entity",
+        "showTitle" : false,
+        "showDashboardsSelect" : true,
+        "showEntitiesSelect" : true,
+        "showDashboardTimewindow" : true,
+        "showDashboardExport" : true,
+        "toolbarAlwaysOpen" : true
+      }
+    },
+    "customerId" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "bda93640-cd81-11ea-ba45-170bcee1a688"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "IOT Gateway",
+    "ownerId" : null,
+    "title" : "IOT Gateway"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

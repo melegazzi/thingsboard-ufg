@@ -1,0 +1,31 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "",
+      "allowWhiteLabeling" : true
+    },
+    "address" : "Via Treviglio, 15",
+    "address2" : null,
+    "city" : "Brignano Gera d'Adda",
+    "country" : "Italy",
+    "customerId" : null,
+    "email" : "complett-ks@complett-ks.it",
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "name" : "Complett K&S",
+    "ownerId" : null,
+    "parentCustomerId" : null,
+    "phone" : "+39 0363 1970730",
+    "state" : "Bergamo",
+    "title" : "Complett K&S",
+    "zip" : "24053"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

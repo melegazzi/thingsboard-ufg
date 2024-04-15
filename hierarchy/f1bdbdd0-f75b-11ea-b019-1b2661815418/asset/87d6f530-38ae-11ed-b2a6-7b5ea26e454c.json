@@ -1,0 +1,80 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "e2b0b8a0-f8a8-11ed-90d6-bb4200c4b3a3"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "87d6f530-38ae-11ed-b2a6-7b5ea26e454c"
+    },
+    "label" : null,
+    "name" : "Marima Srl",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "type" : "company"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "87d6f530-38ae-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "3d163050-38af-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "ae48b790-9233-11ea-888d-0bcef8d19d25"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "87d6f530-38ae-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1663655860280,
+      "longValue" : null,
+      "strValue" : "Via Fontenoce, 24, 64021 Zona Industriale di Colleranesco TE"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1663655908058,
+      "longValue" : null,
+      "strValue" : "42.725882"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1663655897842,
+      "longValue" : null,
+      "strValue" : "13.949159"
+    } ]
+  }
+}

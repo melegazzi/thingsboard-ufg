@@ -1,0 +1,31 @@
+[ {
+  "entityType" : "DEVICE",
+  "id" : "0b540280-e62b-11ec-9271-f31572041570"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "14247ac0-e62b-11ec-9271-f31572041570"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "1597b390-d32b-11eb-a613-153e176a140d"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "22813cc0-e62b-11ec-9271-f31572041570"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "33c7b130-e62b-11ec-9271-f31572041570"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "3f386480-2775-11ec-9770-eb90561c60d1"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "4ad10ab0-1a12-11ec-9770-eb90561c60d1"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "50b5e640-c1e2-11eb-a613-153e176a140d"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "6fb6dce0-178f-11ec-9770-eb90561c60d1"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "9578de10-7ffa-11eb-a49a-65d7b30a1d9a"
+} ]

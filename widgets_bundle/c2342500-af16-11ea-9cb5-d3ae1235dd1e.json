@@ -1,0 +1,21 @@
+{
+  "entityType" : "WIDGETS_BUNDLE",
+  "entity" : {
+    "alias" : "custom_widget",
+    "description" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "WIDGETS_BUNDLE",
+      "id" : "c2342500-af16-11ea-9cb5-d3ae1235dd1e"
+    },
+    "image" : null,
+    "name" : "Custom Widget",
+    "order" : null,
+    "title" : "Custom Widget"
+  },
+  "fqns" : [ "custom_widget.navigate_to" ],
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

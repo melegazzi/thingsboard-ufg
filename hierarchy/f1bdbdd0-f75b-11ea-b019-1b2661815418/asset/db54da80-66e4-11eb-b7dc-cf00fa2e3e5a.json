@@ -1,0 +1,88 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "e2b0b8a0-f8a8-11ed-90d6-bb4200c4b3a3"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "db54da80-66e4-11eb-b7dc-cf00fa2e3e5a"
+    },
+    "label" : null,
+    "name" : "Bertin S.r.l.",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "type" : "company"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "ae48b790-9233-11ea-888d-0bcef8d19d25"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "db54da80-66e4-11eb-b7dc-cf00fa2e3e5a"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "db54da80-66e4-11eb-b7dc-cf00fa2e3e5a"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "c5e555d0-66e4-11eb-b7dc-cf00fa2e3e5a"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1617356810396,
+      "longValue" : null,
+      "strValue" : "Via Motta 51/h - 35043 Monselice PADOVA"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "imageUrl",
+      "lastUpdateTs" : 1612442190601,
+      "longValue" : null,
+      "strValue" : "https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/dc581f4e-7ef3-4363-a8df-cef42f11d3c6"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 45.2220812835912,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1612442236945,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 11.70998881918524,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1612442254915,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

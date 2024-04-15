@@ -1,0 +1,10 @@
+[ {
+  "entityType" : "DEVICE",
+  "id" : "101a1ff0-8a7f-11ec-9770-eb90561c60d1"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "16a9cff0-8a7f-11ec-9770-eb90561c60d1"
+}, {
+  "entityType" : "DEVICE",
+  "id" : "e10fa740-8a7c-11ec-9770-eb90561c60d1"
+} ]

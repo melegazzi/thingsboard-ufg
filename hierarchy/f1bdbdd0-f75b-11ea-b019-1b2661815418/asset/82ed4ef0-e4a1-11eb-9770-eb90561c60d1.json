@@ -1,0 +1,68 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "e2b0b8a0-f8a8-11ed-90d6-bb4200c4b3a3"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "82ed4ef0-e4a1-11eb-9770-eb90561c60d1"
+    },
+    "label" : null,
+    "name" : "Antoraf S.r.l.",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "type" : "company"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "82ed4ef0-e4a1-11eb-9770-eb90561c60d1"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "9b4a0960-e3ad-11eb-a613-153e176a140d"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1626267578035,
+      "longValue" : null,
+      "strValue" : "Via Spineto, 14/o/p, 63837 Falerone FERMO"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 43.09805,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1626267640040,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 13.50385,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1626267671473,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

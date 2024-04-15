@@ -1,0 +1,210 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : null,
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "4ef46960-6dde-11eb-90c4-6977bd2b5957"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "f3678060-92f9-11ea-888d-0bcef8d19d25"
+    },
+    "label" : null,
+    "name" : "Rimaglio-K99-02",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "softwareId" : null,
+    "type" : "K99"
+  },
+  "credentials" : {
+    "credentialsId" : "eQEN0hPD7JHCHiKCnxXU",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "be9b7d30-9233-11ea-888d-0bcef8d19d25"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "f3678060-92f9-11ea-888d-0bcef8d19d25"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1615200016802,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cuc_set",
+      "lastUpdateTs" : 1614352264610,
+      "longValue" : 19,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cuc_set_2",
+      "lastUpdateTs" : 1614352432346,
+      "longValue" : 25,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "id_commessa",
+      "lastUpdateTs" : 1592648000975,
+      "longValue" : null,
+      "strValue" : "ABC124568"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1615200016802,
+      "longValue" : 1615200016802,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityTimeout",
+      "lastUpdateTs" : 1592646293489,
+      "longValue" : 5000,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1615199983297,
+      "longValue" : 1615199982839,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1615195988244,
+      "longValue" : 1615195988244,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1615200001316,
+      "longValue" : 1615200001316,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.125,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1589141715186,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.12,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1589141725865,
+      "longValue" : null,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "commessa",
+      "lastUpdateTs" : 1592596780773,
+      "longValue" : 13,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "cuc_set",
+      "lastUpdateTs" : 1614672992454,
+      "longValue" : 6,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "id_com",
+      "lastUpdateTs" : 1614672969370,
+      "longValue" : null,
+      "strValue" : "Test1"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "id_commessa",
+      "lastUpdateTs" : 1592647871098,
+      "longValue" : 125235,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "id_pcs",
+      "lastUpdateTs" : 1614672982518,
+      "longValue" : null,
+      "strValue" : "Maniche"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "pcs_set",
+      "lastUpdateTs" : 1614672973216,
+      "longValue" : 200,
+      "strValue" : null
+    }, {
+      "booleanValue" : false,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "state",
+      "lastUpdateTs" : 1592596784970,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "vel_set",
+      "lastUpdateTs" : 1614672987683,
+      "longValue" : 1000,
+      "strValue" : null
+    } ]
+  }
+}

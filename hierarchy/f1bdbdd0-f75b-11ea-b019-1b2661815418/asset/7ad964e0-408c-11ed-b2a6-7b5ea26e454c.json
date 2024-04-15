@@ -1,0 +1,116 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "e2b0b8a0-f8a8-11ed-90d6-bb4200c4b3a3"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "7ad964e0-408c-11ed-b2a6-7b5ea26e454c"
+    },
+    "label" : null,
+    "name" : "Taglia & Cuci",
+    "ownerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "f1bdbdd0-f75b-11ea-b019-1b2661815418"
+    },
+    "type" : "company"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "ae48b790-9233-11ea-888d-0bcef8d19d25"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "7ad964e0-408c-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "7ad964e0-408c-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d0848ec0-4bb7-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "7ad964e0-408c-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "d6f08a20-4bb7-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "7ad964e0-408c-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "1615b360-4bb8-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "7ad964e0-408c-11ed-b2a6-7b5ea26e454c"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "2dd965c0-408a-11ed-b2a6-7b5ea26e454c"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON"
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "address",
+      "lastUpdateTs" : 1664520962175,
+      "longValue" : null,
+      "strValue" : "Via Roma, 115, 76017 San Ferdinando di Puglia, Barletta"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "latitude",
+      "lastUpdateTs" : 1664520980471,
+      "longValue" : null,
+      "strValue" : "41.30192"
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "longitude",
+      "lastUpdateTs" : 1664520991858,
+      "longValue" : null,
+      "strValue" : "16.06918"
+    } ]
+  }
+}
